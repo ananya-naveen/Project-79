@@ -19,7 +19,7 @@ menu_list_array.sort();
 htmldata="<section class='class'>";
 for(i=0;i<menu_list_array.length;i++){
     htmldata=htmldata+'<div class="card">'
-    +'<img src="images/pizza.png">'
+    +'<img src="pizza.png">'
     +menu_list_array[i]+'</div>'
 }
 htmldata=htmldata+"</section>"
